@@ -1,0 +1,164 @@
+.col-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F8F9FB;
+    padding: 20px;
+}
+
+.col-md-12 {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.subheading {
+    display: block;
+    color:blue;
+    margin-bottom: 10px;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem;
+}
+
+.heading-section {
+    text-align: center;
+}
+.company-logo {
+        text-align: center; /* Canh giữa nội dung */
+    }
+    .company-logo img {
+        max-width: 130px; /* Độ rộng tối đa của hình ảnh */
+        height: auto; /* Đảm bảo tỷ lệ hình ảnh không bị méo */
+        display: block; /* Hiển thị hình ảnh là một khối */
+        margin: 0 auto; /* Canh giữa hình ảnh trong khối */
+        padding: 10px; /* Khoảng cách xung quanh hình ảnh */
+    }
+
+
+
+.heading-section-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.heading-section {
+    text-align: center;
+}
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.category-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    width: 150px; /* Adjust width as needed */
+    text-align: center;
+}
+
+.category-name {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.category-recruitments {
+    font-size: 1em;
+    color: #555;
+}
+
+
+
+.header-container {
+    position: relative;
+    text-align: center;
+    color: white; /* Text color */
+    overflow: hidden;
+    height: 30vh; /* Display half the image vertically */
+     background-color: #7891F8;
+}
+
+.header-image-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.header-img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: -50%; /* Move the image up to show the bottom half */
+}
+
+.header-logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1; /* Ensure the logo is above the image */
+}
+
+.header-logo h5 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.header-content {
+    position: absolute;
+    top: 10px;
+    right: 40%;
+    display: flex;
+    gap: 10px;
+    z-index: 1; /* Ensure the content is above the image */
+}
+
+.header-content button {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.header-content .login-button {
+    display: flex;
+    align-items: center;
+}
+
+.header-content .login-button i {
+    margin-right: 5px;
+}
+
+.header-text {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: 1; /* Ensure the text is above the image */
+}
+
+.header-text p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.header-text h3 {
+    font-size: 28px;
+    margin: 5px 0;
+}

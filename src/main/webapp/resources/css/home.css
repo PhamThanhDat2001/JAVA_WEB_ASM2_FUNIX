@@ -1,0 +1,369 @@
+.col-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F8F9FB;
+    padding: 20px;
+}
+
+.col-md-12 {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.subheading {
+    display: block;
+    color:blue;
+    margin-bottom: 10px;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem;
+}
+
+.heading-section {
+    text-align: center;
+}
+.company-logo {
+        text-align: center; /* Canh giữa nội dung */
+    }
+    .company-logo img {
+        max-width: 130px; /* Độ rộng tối đa của hình ảnh */
+        height: auto; /* Đảm bảo tỷ lệ hình ảnh không bị méo */
+        display: block; /* Hiển thị hình ảnh là một khối */
+        margin: 0 auto; /* Canh giữa hình ảnh trong khối */
+        padding: 10px; /* Khoảng cách xung quanh hình ảnh */
+    }
+
+
+
+.heading-section-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.heading-section {
+    text-align: center;
+}
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.category-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    width: 150px; /* Adjust width as needed */
+    text-align: center;
+}
+
+.category-name {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.category-recruitments {
+    font-size: 1em;
+    color: #555;
+}
+
+
+
+.header-container {
+    position: relative;
+    text-align: center;
+    color: white; /* Text color */
+    overflow: hidden;
+    height: 80vh; /* Display half the image vertically */
+}
+
+.header-image-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.header-img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: -50%; /* Move the image up to show the bottom half */
+}
+
+.header-logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1; /* Ensure the logo is above the image */
+}
+
+.header-logo h5 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.header-content {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    gap: 10px;
+    z-index: 1; /* Ensure the content is above the image */
+}
+
+
+
+
+
+
+.header-content button {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.header-content .login-button {
+    display: flex;
+    align-items: center;
+}
+
+.header-content .login-button i {
+    margin-right: 5px;
+}
+
+.header-text {
+    position: absolute;
+    bottom: 55%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: 1; /* Ensure the text is above the image */
+}
+.header-info {
+    display:flex;
+    position: absolute;
+    bottom: 105%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: 1; /* Ensure the text is above the image */
+}
+.header-search {
+    display:flex;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: 1; /* Ensure the text is above the image */
+}
+
+.header-text p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.header-text h3 {
+    font-size: 28px;
+    margin: 5px 0;
+}
+
+
+  .header-image-wrapper {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .header-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #776ACD; /* Semi-transparent overlay color */
+        opacity: 0.7; /* Adjust opacity as needed */
+    }
+
+.search-btn{
+display: inline-block; width: 100px;
+}
+
+
+.header-info {
+    display: flex;
+    justify-content: space-around; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    padding: 20px; /* Padding around the section */
+}
+
+.header-info > div {
+    display: flex;
+    align-items: center; /* Center child items vertically */
+}
+
+.header-info i {
+    font-size: 40px; /* Enlarge icon size */
+    margin-right: 8px; /* Spacing between icon and text */
+}
+
+.header-info p {
+    font-size: 14px; /* Decrease text size */
+    font-weight: bold; /* Bold text */
+    margin: 0 20px; /* Spacing between elements */
+}
+
+
+
+/* CSS for header-search section */
+.header-search {
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Style for the search tabs */
+.nav-pills .nav-link {
+    color: #333; /* Text color */
+    font-weight: 500;
+    border-radius: 0;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .nav-link:hover {
+    background-color: #007bff; /* Active/hover background color */
+    color: #fff; /* Active/hover text color */
+}
+
+/* Style for the search job form */
+/* Định dạng phần tìm kiếm và các tab link */
+.nav-link {
+    padding: 10px 15px;
+    color: #333;
+}
+
+.nav-link.active {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.search-job {
+    display: flex;
+    align-items: center;
+}
+
+.form-field {
+    position: relative;
+    width: 100%;
+}
+
+.form-field .icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    color: #007bff;
+}
+
+.form-control {
+    padding-left: 40px; /* Để không che icon */
+}
+
+.search-button {
+    margin-left: 10px; /* Khoảng cách giữa input và button */
+}
+
+/* CSS để nút tìm kiếm có cùng kiểu với ô input */
+.search-btn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border: 1px solid #ced4da; /* Cùng màu viền với ô input */
+    border-left: 0; /* Loại bỏ viền trái của nút để nối với ô input */
+}
+
+.form-control {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+/* Tùy chỉnh chung */
+
+.search-btn {
+    height: 38px; /* Chiều cao của cả ô input và nút */
+
+}
+
+.search-btn {
+    padding-left: 20px; /* Canh lề chữ trong nút */
+    padding-right: 20px; /* Canh lề chữ trong nút */
+}
+
+
+    .tab-content .tab-pane input[type="text"] {
+      flex: 1; /* Allow input to grow and take up remaining space */
+      margin-right: 10px; /* Add some space between input and button */
+    }
+
+
+
+
+
+
+.intro{
+margin-top:50px;
+margin-bottom:50px;
+background-color: #776ACD;
+display:flex;
+padding:80px;
+}
+
+  .intro {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      text-align: center;
+      margin-top: 20px;
+    }
+    .intro div {
+      flex: 1 1 200px;
+      margin: 15px;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      background-color: #f8f9fa;
+    }
+    .intro i {
+      font-size: 2rem;
+      margin-bottom: 10px;
+      color: #007bff;
+    }
+    .intro h5 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+    .intro p {
+      font-size: 1rem;
+      color: #6c757d;
+    }

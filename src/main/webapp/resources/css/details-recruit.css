@@ -1,0 +1,116 @@
+   body {
+            background-color: #F8F9FB;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .header-container {
+            background-color: #343a40;
+            color: white;
+            padding: 20px;
+        }
+
+
+.header-container {
+    background-color: #007bff;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    margin-bottom:20px;
+}
+
+        .header-content a {
+            color: white;
+            text-decoration: none;
+            margin-right: 15px;
+        }
+
+        .header-content h4 {
+            margin: 0;
+        }
+
+        .container {
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .job-details {
+            display: flex;
+            justify-content: space-between;
+            margin: 30px;
+        }
+
+        .job-details h4 {
+            color: #007bff;
+        }
+
+        .job-details span {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .job-summary p {
+
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+  .job-summary  {
+  margin: 30px;
+         padding:20px;
+          background-color: #F8F9FA;
+        }
+
+        .related-jobs {
+        display:flex;
+            margin-top: 30px;
+         justify-content:space-between;
+         align-items:center;
+        }
+
+        .related-job-item {
+            margin-bottom: 20px;
+        }
+
+        .related-job-item h4 {
+            margin: 0;
+            color: #007bff;
+        }
+
+        .related-job-item p {
+            margin: 5px 0;
+        }
+
+        .related-job-item svg {
+            margin-right: 5px;
+        }
+
+        .btn-custom {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-left: 100px;
+            margin-top:20px;
+        }
+
+        .btn-custom:hover {
+            background-color: #0056b3;
+            color: white;
+        }
+
+        .share-icons i {
+            font-size: 20px;
+            margin-right: 10px;
+            color: #007bff;
+        }
+        .share-icons  {
+         margin: 30px;
+                  padding:20px;
+                   background-color: #F8F9FA;
+        }
+
+        .share-icons i:hover {
+            color: #0056b3;
+        }
